@@ -206,6 +206,10 @@ main .section-hero{
   .hero-btn a{
     color:white;
     text-decoration: none;
+
+    &:hover{
+      color:#4484fb;
+    }
  }
  .btn {
     margin-left:5rem;
@@ -243,7 +247,7 @@ main .section-hero{
 
   /* EXTRA SECTION */
   .container-1{
-    width:85%;
+    width:88%;
     height:250px;
     margin:2rem auto;
     background-color: white;
@@ -297,20 +301,20 @@ main .section-hero{
   }
   .Extra-txt p{
     padding-top:2.5rem ;
-    padding-left:1rem;
+    padding-left:2rem;
     font-size: 15px;
     color:#7f8081;
   }
   .Extra-txt h3{
     margin: 0.6rem 0 1.6rem 0;
-    padding-left:0.5rem;
-    font-size: 1.7rem;
+    padding-left:1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
 
   }
   .Extra-txt a{
     padding-top:3rem;
-    padding-left:1rem;
+    padding-left:2rem;
     font-size:18px;
     color:#7f8081;
 
