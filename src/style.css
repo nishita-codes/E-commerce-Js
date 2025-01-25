@@ -5,9 +5,9 @@
     font-family: "urbanion";
 }
 body{
-    
     margin: 0px auto;
     padding: 0px 28px;
+    background-color: rgb(241, 239, 239);
 }
 .top_txt{
 background-color: rgb(43, 42, 42);
@@ -238,5 +238,35 @@ main .section-hero{
   
   .custom-shape-divider-bottom-1696038172 .shape-fill {
     fill: #ffffff;
+  }
+  
+
+  /* EXTRA SECTION */
+  .container-1{
+    width:80%;
+    height:200px;
+    margin:0px auto;
+    background-color: rgb(243 246 249);
+    gap:0.5rem;
+   
+  }
+  .grid{
+    display: grid;
+  }
+  .grid-three--cols{
+    grid-template-columns: repeat(3 , 1fr);
+  }
+  .Div-Extra{
+    box-shadow:2px 1px 7px 0px rgb(199, 198, 198);
+  }
+  .Div-Extra .grid{
+    display: grid;
+  }
+  .extra-laptop img{
+    width:200px;
+    height:150px;
+  }
+  .Extra-txt p{
+
   }
   
