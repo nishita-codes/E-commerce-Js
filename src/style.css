@@ -3,11 +3,13 @@
     padding:0;
     box-sizing: border-box;
     font-family: "urbanion";
+ 
 }
 body{
     margin: 0px auto;
     padding: 0px 28px;
     background-color: rgb(241, 239, 239);
+    overflow-x: hidden;
 }
 .top_txt{
 background-color: rgb(43, 42, 42);
@@ -249,8 +251,9 @@ main .section-hero{
   .container-1{
     width:88%;
     height:250px;
-    margin:2rem auto;
+    margin:1.5rem auto;
     background-color: white;
+   
   }
   .grid{
     display: grid;
@@ -270,7 +273,7 @@ main .section-hero{
       bottom: 0;
       width: 9rem;
       height: 9rem;
-      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+      /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
       border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
       background-color: rgb(230, 231, 232);
       z-index: 1;
