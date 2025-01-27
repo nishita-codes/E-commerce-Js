@@ -340,3 +340,31 @@ main .section-hero{
     transform: rotate(5deg);
   }
   
+  /* POLICY */
+  .container-2{
+    width:88%;
+    height:150px;
+    margin:1.5rem auto;
+    background-color: white;
+   
+  }
+  .grid{
+    display: grid;
+  }
+  .grid-four--cols{
+   grid-template-columns: repeat(4,1fr);
+  }
+
+.Div-policy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  color:#4484fb;
+  font-size: 26px;
+  padding-right:20px;
+}
+.div-policy-txt{
+  font-size: 1rem;
+}
