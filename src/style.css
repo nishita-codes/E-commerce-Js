@@ -374,3 +374,7 @@ main .section-hero{
   width:88%;
   margin:1.5rem auto;
 }
+.choose-center-div img{
+  width:200px;
+  height:300px;
+}
