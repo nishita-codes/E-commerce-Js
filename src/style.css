@@ -502,15 +502,13 @@ main .section-hero {
 .content_2 {
   display: flex;
   flex-direction: column;
-  color: white;
+  color:  rgb(205, 202, 202);
 }
 h4{
   text-decoration: underline;
 }
-
-
 .content_2 a {
-  color: white;
+  color: rgb(205, 202, 202);
   text-decoration: none;
   padding-top: 0.7rem;
 
@@ -522,11 +520,11 @@ h4{
 .content_3 {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: rgb(205, 202, 202);
 }
 
 .content_3 a {
-  color: white;
+  color: rgb(205, 202, 202);
   text-decoration: none;
   padding-top: 0.7rem;
 
@@ -538,15 +536,40 @@ h4{
 .content_4 {
   display: flex;
   flex-direction: column;
-  color: white;
+  color:  rgb(205, 202, 202);
 }
 
 .content_4 a {
-  color: white;
+  color: rgb(205, 202, 202);
   text-decoration: none;
   padding-top: 0.7rem;
 
   &:hover {
     color: #4484fb;
   }
+}
+
+.f-mail{
+  padding-top:1rem;
+}
+.f-mail input{
+  background-color: #2a2c30;
+  border:none;
+  width:12rem;
+  height:1.5rem;
+  color: rgb(205, 202, 202);
+}
+hr{
+  width:12rem;
+}
+.content_4 p{
+  padding-top:0.7rem;
+}
+
+.f-design-txt{
+  text-align: center;
+  color:rgb(205, 202, 202);
+  background-color: #2a2c30;
+  text-decoration: underline;
+  padding-bottom:0.7rem;
 }
