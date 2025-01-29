@@ -370,6 +370,9 @@ main .section-hero{
 }
 
 /* WHY TO CHOOSE OUR STORE */
+.section-common--subheading{
+  margin-top:0.7rem;
+}
 .container-3{
   width:88%;
   margin:1.5rem auto;
@@ -384,7 +387,7 @@ main .section-hero{
 .choose-center-div img{
   width:300px;
   height:400px;
-  margin-left:-4rem;
+  margin-left:-6rem;
   margin-top: 6rem;
   position: relative;
 
@@ -411,16 +414,16 @@ main .section-hero{
   content: "";
   position: absolute;
   top: 100%;
-  left: 50%;
+  left: 44%;
   transform: translate(-50%, -50%);
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
-  background-color: rgb(165, 194, 238);
+  background-color: rgb(207, 226, 255);
   z-index: -1;
 }
 .why-choose--div p{
-  margin-top:0.7rem;
+  margin-top:0.5rem;
 }
 
 .text-align--left .common-text--highlight{
@@ -434,6 +437,12 @@ main .section-hero{
   border-radius: 50%;
   padding: 0.3rem 0.6rem;
 }
-.choose-right-div{
 
+
+/* FOOTER */
+.container-5{
+  background-color:  #2a2c30;
+ color:rgb(205, 202, 202);
+ height:15rem;
+ width:100%;
 }
