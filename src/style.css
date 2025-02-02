@@ -573,3 +573,133 @@ hr{
   text-decoration: underline;
   padding-bottom:0.7rem;
 }
+
+/* Product-section */
+#productContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.8rem;
+
+  & .information {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2.5rem;
+  width: 36rem;
+  padding: 1.6rem;
+ 
+  margin: 1.8vh auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 0.3rem;
+  
+}
+
+.category {
+  background-color: #e7d6d6;
+  padding: 0.3rem 1.2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  border-radius: 10rem;
+ 
+}
+
+.productImage {
+  max-width: 100%;
+  width: 32rem;
+  height: auto;
+}
+
+.productPriceElement,
+.productQuantityElement,
+.productStockElement {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.productPriceElement {
+  margin: 0.8rem 0;
+}
+
+.productProperty,
+.productDescription {
+  font-size: 1.6rem;
+}
+
+.stockElement {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 0.8rem 0;
+
+  & button {
+    background-color: transparent;
+    color: black;
+    font-size: 2rem;
+    padding: 0.2rem 2rem;
+    font-weight: bold;
+    /* border: none; */
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    & .cartIncrement{
+      border: 0.1rem solid black ;
+      border-radius: 0;
+    }
+
+    & .cartDecrement {
+      border-left: 0.1rem solid black;
+      border-radius: 0;
+    }
+  }
+
+  .productQuantity {
+    padding: 0.2rem 2rem;
+    margin: 0;
+    font-weight: bold;
+  }
+}
+/**** Our Home product section Ends  ****/
+
+#cartValue {
+  background-color: var(--buttonColor);
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.add-to-cart-button,
+.contact-btn,
+.hero-btn a {
+  font-weight: 500;
+  font: inherit;
+  border-radius: 6px;
+  border: 0;
+  padding: 1rem 2.8rem;
+  background-color: black;
+  color: #fff;
+  font-size: 1.6rem;
+  /* margin-top: 1.2rem; */
+
+  &:hover {
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.16),
+      inset 0px 0px 0px 3px rgb(51, 51, 51);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+  }
+
+  .fa-cart-shopping {
+    padding-right: 1rem;
+  }
+}
